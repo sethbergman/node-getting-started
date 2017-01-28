@@ -7,9 +7,9 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "ejs": "2.3.3",
-    "express": "4.13.3",
-    "rollbar": "^0.5.12"
+    "ejs": "2.5.5",
+    "express": "4.14.0",
+    "rollbar": "^0.6.3"
   },
   "engines": {
     "node": "0.12.7"
