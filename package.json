@@ -4,12 +4,15 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "ejs": "2.3.3",
-    "express": "4.13.3",
-    "rollbar": "^0.5.12"
+    "express": "4.16.0",
+    "rollbar": "^0.5.12",
+    "snyk": "^1.41.1"
   },
   "engines": {
     "node": "0.12.7"
@@ -23,5 +26,6 @@
     "dokku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
